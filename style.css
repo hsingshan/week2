@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+    font-family: 微軟正黑體;
+}
+img{
+    display: block;
+}
+.header{
+    height: 40px;
+    margin: 30px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header span img {
+    height: 40px;
+    width: auto;
+}
+.header ul{
+    width: 319px;
+    line-height: 40px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #3F5D45;
+}
+.header ul a:hover{
+    color: #EAF0ED;
+}
+
+.banner{
+    margin-bottom: 60px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.menu{
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+}
+.menu h3{
+    padding: 20px;
+    color: #EAF0ED;
+    background: #3F5D45;
+    margin: auto 0;
+}
+.menu a{
+    border: 1px solid #EAF0ED;
+    padding: 20px;
+    text-decoration: none;
+    color: #3F5D45;
+    display: block;
+}
+.menu a:hover{
+    background: #EAF0ED;
+}
+
+.product{
+    width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.product li{
+    width: 300px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.feature{
+    font-size: 16px;
+    padding: 15px 10px;
+    color: #EAF0ED;
+    background: #3F5D45;
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+.like{
+    position: absolute;
+    right: 22px;
+    top: 19px;
+}
+.price{
+    line-height: 56px;
+    font-size: 20px;
+    color: #3F5D45;
+    text-align: center;
+    display:flex;
+}
+.price h3{
+    width: 173px;
+    border: 1px solid #EAF0ED;
+}
+.price span{
+    width: 127px;
+    border: 1px solid #EAF0ED;
+}
+.product a{
+    display: block;
+    line-height: 65px;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    color: #3F5D45;
+    background: #EAF0ED;
+}
+.product a:hover {
+    color: #EAF0ED;
+    background: #3F5D45;
+}
+
+.page {
+    display: flex;
+    justify-content: flex-end;
+    color: #3F5D45;
+    margin-bottom: 60px;
+}
+
+.page li a{
+    width: 60px;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #3F5D45;
+    border: 1px solid #EAF0ED;
+}
+.select:hover{
+    color: #EAF0ED;
+    background: #3F5D45;
+}
+.page img{
+    margin: 18px;
+}
